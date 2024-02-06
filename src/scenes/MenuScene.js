@@ -16,6 +16,7 @@ class MenuScene extends Phaser.Scene {
     this.addCharacters();
     this.addText();
     this.addButton();
+    document.getElementById("loading_page")?.remove();
   }
 
   update() {}
