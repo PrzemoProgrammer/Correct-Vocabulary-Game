@@ -36,6 +36,7 @@ class PlayScene extends Phaser.Scene {
     this.addCharacters();
     this.addWords();
     this.startGame();
+    document.getElementById("loading_page")?.remove();
   }
 
   update() {
